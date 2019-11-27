@@ -4,6 +4,11 @@ The command line program show how to get all the crypto currencies and convert t
 
 ## Project setup
 
+Copy link file 
+https://s3-ap-southeast-1.amazonaws.com/static.propine.com/transactions.csv.zip
+
+unzip transactions.csv file to `/` project directory.
+
 ```
 npm install
 ```
@@ -23,11 +28,11 @@ node index.js BTC
 ### Given a date, return the portfolio value per token in USD on that date
 
 ```
-node index.js 2018-01-01
+node index.js 1571962653
 ```
 
 ### Given a date and a token, return the portfolio value of that token in USD on that date
 
 ```
-node index.js BTC
+node index.js 1571962653 BTC
 ```
